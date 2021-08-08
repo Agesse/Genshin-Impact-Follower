@@ -1,0 +1,27 @@
+.quest-badge {
+  color: var(--ske-light-txt);
+  background: var(--ske-secondary-color);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+}
+
+.quest-check {
+  color: var(--ske-secondary-color);
+}
+
+.quest-check,
+.quest-badge {
+  width: 3rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.mat-expansion-panel-header-title,
+.mat-expansion-panel-header-description {
+  align-items: center;
+}
+
+.mat-expansion-panel {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,65 @@
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.heading img {
+  height: 54px;
+}
+
+.header-title {
+  font-family: "Genshin", serif;
+  font-size: 1.5rem;
+
+  margin: 0;
+  color: var(--ske-light-txt);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 4rem;
+  background: var(--ske-dark-bg);
+  box-shadow: 0 2px 5px 0px var(--ske-border-color);
+  border-top: 1px solid var(--ske-border-color);
+  border-bottom: 1px solid var(--ske-border-color);
+}
+
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+}
+
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  padding: 0 4rem;
+  text-decoration: none;
+  line-height: 3rem;
+  border-bottom: none;
+  display: inline-block;
+  color: var(--ske-light-txt);
+}
+
+.navbar-link:hover {
+  background-color: black;
+}
+
+.navbar-link.active {
+  text-decoration: underline;
+}

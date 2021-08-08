@@ -1,0 +1,52 @@
+.battlepass-counter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.battlepass-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weeknumber {
+  font-size: 1.3rem;
+}
+
+.battlepass-period,
+.weektotal {
+  font-size: 0.9rem;
+}
+
+.info {
+  background: var(--ske-light-bg);
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-block .info:first-of-type {
+  margin-right: 8px;
+}
+
+.info-data {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.battlepass-infos .col:first-of-type {
+  margin-right: 16px;
+}
+
+.battlepass-period,
+.info-precision {
+  color: #737373;
+}
+
+.select-aligned-button {
+  margin-left: 10px;
+  position: relative;
+  top: 3px;
+}

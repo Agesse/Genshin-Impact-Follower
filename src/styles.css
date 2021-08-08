@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container {
+  margin-bottom: 4rem;
+}
+
+@font-face {
+  font-family: "Genshin";
+  src: local("Genshin"), url("assets/genshin-font.ttf") format("truetype");
+}
+
+.mat-h1,
+.mat-headline,
+.mat-typography h1,
+h1 {
+  font-family: "Genshin", sans-serif;
+}
+
+/** TOOLTIPS **/
+.black-tooltip {
+  background-color: var(--ske-dark-bg);
+}
+
+.mat-icon[mattooltip] {
+  cursor: pointer;
+}
+
+/** BOUTONS **/
+.mat-stroked-button {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/** Encapsulation styles **/
+app-quest-list label {
+  margin: 0;
+}
+
+app-quest-list .mat-icon {
+  vertical-align: -6px;
+  color: var(--ske-main-color);
+}
+
+app-quest-list .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: var(--ske-dark-bg);
+}

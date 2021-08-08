@@ -1,0 +1,15 @@
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      <div class="quest-badge" *ngIf="remainingQuests > 0">
+        {{ remainingQuests }}
+      </div>
+      <mat-icon class="quest-check" *ngIf="remainingQuests === 0"
+        >check</mat-icon
+      >
+      {{ periodName }}
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <ng-content></ng-content>
+</mat-expansion-panel>

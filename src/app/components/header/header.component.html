@@ -1,0 +1,11 @@
+<nav class="navbar">
+    <div class="heading">
+        <img alt="Genshin Impact" src="../../../assets/logo.png" />
+        <p class="header-title">Genshin Impact Follower</p>
+    </div>
+    <ul class="navbar-list">
+        <li *ngFor="let route of routeList" class="navbar-item">
+            <a [routerLink]="route.routePath" routerLinkActive="active" class="navbar-link">{{ route.routeLabel }}</a>
+        </li>
+    </ul>
+</nav>
